@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/blog-config-service/pom.xml" />
         <option value="$PROJECT_DIR$/blog-api/pom.xml" />
         <option value="$PROJECT_DIR$/blog-admin-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-cache/pom.xml" />
       </list>
     </option>
   </component>

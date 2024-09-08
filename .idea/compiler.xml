@@ -13,6 +13,7 @@
         <module name="blog-user-auth" />
         <module name="blog-notification-message" />
         <module name="blog-admin-dashboard" />
+        <module name="blog-cache" />
         <module name="blog-media-management" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="blog-admin-dashboard" options="-parameters" />
       <module name="blog-api" options="-parameters" />
+      <module name="blog-cache" options="-parameters" />
       <module name="blog-config-service" options="-parameters" />
       <module name="blog-content-management" options="-parameters" />
       <module name="blog-media-management" options="-parameters" />
