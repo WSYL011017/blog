@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blog-api" />
+        <module name="blog-config-service" />
+        <module name="blog-search" />
+        <module name="blog-content-management" />
+        <module name="blog-user-auth" />
+        <module name="blog-notification-message" />
+        <module name="blog-admin-dashboard" />
+        <module name="blog-media-management" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog-admin-dashboard" options="-parameters" />
+      <module name="blog-api" options="-parameters" />
+      <module name="blog-config-service" options="-parameters" />
+      <module name="blog-content-management" options="-parameters" />
+      <module name="blog-media-management" options="-parameters" />
+      <module name="blog-notification-message" options="-parameters" />
+      <module name="blog-search" options="-parameters" />
+      <module name="blog-user-auth" options="-parameters" />
+    </option>
+  </component>
+</project>
