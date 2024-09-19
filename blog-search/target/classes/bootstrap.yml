@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: search
+  cloud:
+    nacos:
+      server-addr: 192.168.10.118:8848
+      password: suyala1017..
+      username: nacos
+      config:
+        file-extension: yaml
